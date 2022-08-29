@@ -1,0 +1,37 @@
+/* login page  */
+.login__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    padding: 0 20px;
+}
+
+.login__desc{
+    margin-right: 20px;
+}
+.login__desc>h1{
+    margin-bottom: 10px;
+    color: var(--primary--color);
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.login__desc>p{
+    font-size: 16px;
+}
+
+/* tablet*/
+/* mobile */
+@media screen and (max-width: 767px) {
+    .login__container{
+        flex-direction: column;     
+        text-align: center;
+    }
+    .login__desc{
+        margin-bottom: 20px;
+    }
+    
+}
